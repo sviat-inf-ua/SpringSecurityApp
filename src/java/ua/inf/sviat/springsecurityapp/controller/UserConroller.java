@@ -62,9 +62,14 @@ public class UserConroller {
         return "login";
     }
 
-    @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String welcome(Model model) {
         return "welcome";
+    }
+
+    @RequestMapping(value = "/")
+    public String index (){
+        return "index";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
