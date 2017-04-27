@@ -1,4 +1,4 @@
-package ua.inf.sviat.springsecurityapp.service;
+package ua.inf.sviat.springsecurityapp.service.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

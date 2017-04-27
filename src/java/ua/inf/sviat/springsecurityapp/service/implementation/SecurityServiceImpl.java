@@ -1,4 +1,4 @@
-package ua.inf.sviat.springsecurityapp.service;
+package ua.inf.sviat.springsecurityapp.service.implementation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,6 +9,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
+import ua.inf.sviat.springsecurityapp.service.SecurityService;
 
 /**
  * Created by Sviatoslav on 25.03.2017.

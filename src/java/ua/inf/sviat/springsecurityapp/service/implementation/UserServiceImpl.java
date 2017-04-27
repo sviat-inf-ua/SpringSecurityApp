@@ -1,4 +1,4 @@
-package ua.inf.sviat.springsecurityapp.service;
+package ua.inf.sviat.springsecurityapp.service.implementation;
 
 
 import ua.inf.sviat.springsecurityapp.dao.UserDao;
@@ -9,6 +9,7 @@ import ua.inf.sviat.springsecurityapp.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import ua.inf.sviat.springsecurityapp.service.UserService;
 
 import java.util.HashSet;
 import java.util.Set;
